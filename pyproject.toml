@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "strawberry-sentry"
+version = "0.1.0"
+description = ""
+authors = ["Philip Zhan <h6zhan@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+strawberry-graphql = {extras = ["debug-server"], version = "^0.242.0"}
+sentry-sdk = "^2.14.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
