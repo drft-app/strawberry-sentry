@@ -2,5 +2,5 @@
 
 ## Running the project
 ```
-strawberry server schema
+fastapi dev app.py
 ```
